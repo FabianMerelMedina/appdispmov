@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "152526000255",
+    "project_id": "appdispmov-b5e36",
+    "storage_bucket": "appdispmov-b5e36.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:152526000255:android:ae67410c7002946001ef4a",
+        "android_client_info": {
+          "package_name": "com.example.appdispmov"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA17Xf5YX_gM4GbAj9mqZBj17pw20wtKzs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

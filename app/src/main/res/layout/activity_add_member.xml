@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F5F7FB">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:paddingStart="24dp"
+        android:paddingEnd="24dp"
+        android:background="#FFFFFF">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/add_member_title"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="#172033" />
+
+        <TextView
+            android:id="@+id/tvNombreGrupoAgregar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:textSize="14sp"
+            android:textColor="#6B7280" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            app:boxBackgroundMode="outline"
+            app:boxCornerRadiusTopStart="16dp"
+            app:boxCornerRadiusTopEnd="16dp"
+            app:boxCornerRadiusBottomStart="16dp"
+            app:boxCornerRadiusBottomEnd="16dp"
+            app:boxStrokeColor="#4F46E5"
+            app:startIconDrawable="@android:drawable/ic_menu_search"
+            app:hintTextColor="#6B7280">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etBuscarUsuario"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:hint="@string/search_users"
+                android:inputType="text"
+                android:maxLines="1"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/tvCantidadUsuarios"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="16dp"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="#4F46E5" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerUsuarios"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:clipToPadding="false"
+            android:paddingBottom="16dp" />
+
+
+        <TextView
+            android:id="@+id/tvSinUsuarios"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="30dp"
+            android:textSize="15sp"
+            android:textColor="#6B7280"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+</LinearLayout>

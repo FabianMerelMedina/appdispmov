@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F5F7FB">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="78dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingStart="18dp"
+        android:paddingEnd="12dp"
+        android:background="#2563EB">
+
+        <TextView
+            android:id="@+id/tvInicialesGrupoChat"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:gravity="center"
+            android:text="FG"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="#4F46E5"
+            android:background="#EEF2FF" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_marginStart="12dp">
+
+            <TextView
+                android:id="@+id/tvNombreGrupoChat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/tvMiembrosChat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/group_members"
+                android:textSize="12sp"
+                android:textColor="#FFFFFF" />
+
+        </LinearLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnMiembros"
+            android:layout_width="wrap_content"
+            android:layout_height="44dp"
+            android:text="@string/members"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            app:cornerRadius="12dp"
+            app:backgroundTint="#EEF2FF"
+            android:textColor="#4F46E5" />
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerMensajes"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:paddingTop="14dp"
+        android:paddingBottom="8dp"
+        android:clipToPadding="false" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:background="#FFFFFF">
+
+        <EditText
+            android:id="@+id/etMensaje"
+            android:layout_width="0dp"
+            android:layout_height="52dp"
+            android:layout_weight="1"
+            android:hint="@string/write_message"
+            android:inputType="textCapSentences|textMultiLine"
+            android:maxLines="4"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:background="#F1F3F8" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnEnviarMensaje"
+            android:layout_width="79dp"
+            android:layout_height="52dp"
+            android:layout_marginStart="8dp"
+            android:text="➤"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            app:backgroundTint="#4F46E5"
+            app:cornerRadius="16dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

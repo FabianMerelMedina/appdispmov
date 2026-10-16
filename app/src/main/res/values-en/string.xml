@@ -1,0 +1,100 @@
+<resources>
+
+    <string name="app_name">app dis mov</string>
+
+    <string name="welcome">Welcome</string>
+    <string name="email">Email address</string>
+    <string name="password">Password</string>
+    <string name="login">LOG IN</string>
+    <string name="no_account">Do not have an account?</string>
+    <string name="create_account">Create account</string>
+
+    <string name="create_an_account">Create an account</string>
+    <string name="name">Name</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="register">CREATE ACCOUNT</string>
+    <string name="already_account">Already have an account? Log in</string>
+
+    <string name="verify_email">Verify your email</string>
+    <string name="verification_message">
+        We have sent you an email with a verification link.
+    </string>
+    <string name="already_verified">I VERIFIED MY EMAIL</string>
+    <string name="resend_email">Resend verification email</string>
+
+    <string name="greeting">Hello!</string>
+    <string name="welcome_chat">Welcome to Chat</string>
+    <string name="ready">Waiting</string>
+    <string name="chat_soon">
+        ...
+    </string>
+    <string name="logout">LOG OUT</string>
+
+    <string name="language">Language</string>
+    <string name="select_language">Select language</string>
+    <string name="spanish">Spanish</string>
+    <string name="english">English</string>
+
+    <string name="user">User</string>
+    <string name="welcome_user">Welcome, %1$s</string>
+
+    <string name="my_groups">My groups</string>
+    <string name="groups_description">Create or view your chat groups</string>
+    <string name="create_group">CREATE GROUP</string>
+
+    <string name="create_group_title">Create group</string>
+    <string name="create_group_description">Create a space to communicate with other users</string>
+    <string name="group_name">Group name</string>
+
+    <string name="enter_group_name">Enter a name for the group</string>
+    <string name="group_created">Group created successfully</string>
+    <string name="no_authenticated_user">There is no authenticated user</string>
+
+    <string name="owner">Owner</string>
+
+    <string name="user_role">User</string>
+
+    <string name="write_message">Write a message...</string>
+    <string name="send_message">SEND</string>
+    <string name="no_group_found">Group not found</string>
+    <string name="message_error">The message could not be sent</string>
+    <string name="messages_error">Error loading messages</string>
+
+
+    <string name="group_members">Group members</string>
+    <string name="add_member">ADD MEMBER</string>
+    <string name="remove_member">REMOVE</string>
+    <string name="default_user">User</string>
+    <string name="remove_member_error">The member could not be removed</string>
+    <string name="members_load_error">Error loading members</string>
+    <string name="add_members_here">Members will be added here</string>
+    <string name="members">MEMBERS</string>
+
+    <string name="complete_all_fields">Complete all fields</string>
+    <string name="passwords_dont_match">Passwords do not match</string>
+    <string name="register_error">Error: %1$s</string>
+    <string name="account_created_check_email">Account created. Check your email.</string>
+    <string name="account_created_email_error">Account created. The verification email could not be sent automatically.</string>
+    <string name="members_count">%1$d members</string>
+
+    <string name="add_member_title">Add member</string>
+    <string name="select_user_to_add">Select a person to add to this group</string>
+    <string name="add">ADD</string>
+    <string name="users_load_error">Error loading users</string>
+    <string name="member_added">Member added successfully</string>
+    <string name="add_member_error">The member could not be added</string>
+    <string name="remove_member_title">Remove member</string>
+    <string name="remove_member_confirmation">Are you sure you want to remove this member from the group?</string>
+    <string name="cancel">CANCEL</string>
+    <string name="member_removed">Member removed successfully</string>
+
+    <string name="search_users">Search by name or email</string>
+    <string name="available_users_count">%1$d users available</string>
+    <string name="no_users_available">There are no users available to add.</string>
+    <string name="no_users_match">No users were found for this search.</string>
+    <string name="group_load_error">The group could not be loaded.</string>
+
+    <string name="group_owner_info">Tú serás el propietario de este grupo y podrás agregar o eliminar miembros.</string>
+    <string name="group_name_too_short">El nombre debe tener al menos 3 caracteres.</string>
+    <string name="group_create_error">No se pudo crear el grupo.</string>
+</resources>

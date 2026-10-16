@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    app:cardCornerRadius="18dp"
+    app:cardElevation="1dp"
+    app:strokeWidth="1dp"
+    app:strokeColor="#E5E7EB">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:padding="14dp">
+
+        <TextView
+            android:id="@+id/tvInicialesUsuario"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="JP"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="#4F46E5"
+            android:background="#EEF2FF" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_marginStart="14dp"
+            android:layout_marginEnd="8dp">
+
+            <TextView
+                android:id="@+id/tvNombreUsuario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#172033" />
+
+            <TextView
+                android:id="@+id/tvCorreoUsuario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:textSize="13sp"
+                android:textColor="#6B7280" />
+
+        </LinearLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnAgregarUsuario"
+            android:layout_width="wrap_content"
+            android:layout_height="44dp"
+            android:minWidth="90dp"
+            android:text="@string/add"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            app:backgroundTint="#4F46E5"
+            app:cornerRadius="12dp" />
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>
